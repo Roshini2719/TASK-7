@@ -1,0 +1,51 @@
+Removing “Sider: Chat with all AI Models” Extension
+Extension Name: Sider: Chat with all AI Models
+Version: 5.8.0-e
+Size: 62.7 MB
+
+🧪 Security & Privacy Risk Analysis
+While “Sider” is marketed as a powerful sidebar AI tool, its broad and intrusive permissions present a significant cybersecurity and privacy risk to end users. The following points justify its removal:
+
+1. Excessive Permissions
+Read your browsing history:
+This grants the extension full access to all sites visited, even outside of its intended use. It can build a profile of user behavior, interests, and potentially confidential activity (e.g., banking, research, credentials).
+
+Read and change all data on websites you visit:
+This is a critical risk. With this access, the extension can:
+
+Capture input in web forms (e.g., usernames, passwords).
+
+Modify or inject scripts into web pages.
+
+Exfiltrate data without user awareness.
+
+Access file URLs:
+May be able to read or alter content of files opened locally in the browser — including .html, .pdf, or downloaded documents.
+
+Run in InPrivate Mode:
+Although convenient, this allows the extension to operate even during private browsing, defeating the purpose of “InPrivate” protection.
+
+2. Potential for Data Collection & Misuse
+No clear privacy policy or transparency around how data is stored, shared, or processed.
+
+High probability of data being sent to third-party AI APIs without user knowledge.
+
+Sizeable codebase (62.7 MB) increases the surface area for hidden trackers or obfuscated code.
+
+3. Not Open Source
+Unlike open-source tools, users cannot inspect or verify what the extension actually does.
+
+Closed-source software with elevated permissions must be treated with greater scrutiny.
+
+🚫 Action: Flagged for Removal
+Although the extension may provide utility for AI-based assistance, the security trade-offs outweigh its benefits in a corporate, academic, or privacy-sensitive environment.
+
+✅ Recommendation
+Remove this extension immediately unless it is business-critical.
+
+If AI assistance is needed, prefer open-source or officially vetted extensions with limited, justifiable permissions.
+
+Monitor browser extensions regularly to ensure only trusted and necessary tools are active.
+
+Never allow full site access for sidebar or non-core utility extensions without auditing their behavior.
+
