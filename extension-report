@@ -1,0 +1,120 @@
+yber Security Internship – Task 7 Report
+Task Title: Identify and Remove Suspicious Browser Extensions
+Browser Used: Microsoft Edge
+
+ Objective
+The goal of this task is to identify potentially harmful or unused browser extensions installed in Microsoft Edge, assess their permissions, and remove or flag those that pose a privacy or security risk.
+
+🧰 Tools Used
+Web Browser: Microsoft Edge (latest version)
+
+Built-in Extension Manager: edge://extensions
+
+Manual Review: Permissions, site access, user ratings, and source
+
+📝 Process Followed
+Opened the Edge Extensions Manager via edge://extensions.
+
+Reviewed each installed extension manually.
+
+Checked:
+
+Description and functionality
+
+Permissions (especially sensitive ones like "read all data on websites")
+
+Whether allowed in InPrivate mode
+
+File size and developer info
+
+Trust level (e.g., open-source, official developer, suspicious behavior)
+
+Made decisions based on security risk and necessity.
+
+Documented the findings for each extension.
+
+Flagged or retained based on security best practices.
+
+🔍 Reviewed Extensions
+1. Sider: Chat with all AI Models
+Version: 5.8.0-e
+
+Size: 62.7 MB
+
+Permissions:
+
+Read browsing history
+
+Change data on all websites
+
+Access file URLs
+
+Run in InPrivate mode
+
+Analysis:
+Broad permissions could allow full monitoring of user activity. High risk due to:
+
+Capability to collect browsing data
+
+Continuous background access
+
+Non-transparent data policy
+
+Action Taken: ⚠️ Flagged for Review
+
+Recommendation: Consider removing if not essential. Use caution when AI extensions require full page access.
+
+2. Clipboard
+Version: 1.3
+
+Size: <1 MB
+
+Permissions:
+
+Modify copied/pasted content
+
+Access all websites
+
+Run in InPrivate mode
+
+Analysis:
+Uses moderate permissions aligned with its function. No known reports of misuse or malicious behavior.
+
+Action Taken: ✅ Retained
+
+Recommendation: Safe to use for productivity. Keep monitoring permission changes in future updates.
+
+3. Google Docs Offline
+Version: 1.91.1
+
+Size: <1 MB
+
+Permissions:
+
+Limited to Google Docs & Drive
+
+No special permissions
+
+Analysis:
+Official extension by Google. Trusted, minimal permissions. Necessary for offline document access.
+
+Action Taken: ✅ Retained
+
+Recommendation: Safe and widely used. No action required.
+
+🧾 Summary Table
+Extension Name	Action	Reason
+Sider	⚠️ Flagged	Excessive permissions, privacy concerns
+Clipboard	✅ Retained	Low-risk, permissions justify functionality
+Google Docs Offline	✅ Retained	Trusted source, minimal site access
+
+🔐 Key Learnings
+Extensions with broad or unclear permissions should be used cautiously.
+
+Always verify the developer identity, reviews, and permissions.
+
+Use InPrivate mode restrictions to limit unnecessary access.
+
+Even small extensions can introduce security issues if not vetted properly.
+
+Browser hygiene (removing unused extensions) enhances privacy and performance.
